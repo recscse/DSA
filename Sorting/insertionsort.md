@@ -1,13 +1,16 @@
-# insertion Sort(A)
+ # Insertion Sort Algorrithm
+ insertion Sort(A)
 
-# for j = 2 to A.length
+ for j = 2 to A.length
 
-# key = A[j]
+  key = A[j]
 
-# i = j-1;
+   i = j-1;
 
-while(i>0 and A[i]>key)
-A[i+1] = A[i];
-i = i-1;
+    while(i>0 and A[i]>key)
+
+    A[i+1] = A[i];
+
+    i = i-1;
 
     A[i+1] = key;
